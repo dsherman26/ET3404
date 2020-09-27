@@ -3,8 +3,7 @@ by Dave Sherman
 
 This is a functional simulation of the Heathkit ET-3400A/ET-3404 written in Java.
 It simulates a virtual Motorola 6809 CPU, and mimics the behavior of the
-ET-3400A buttons and 7-segment display.  I have not gotten around to adding
-an NMI or IRQ button, that may come in the future.  I am an embedded
+ET-3400A buttons and 7-segment display.  I am an embedded
 systems engineer, which helped considerably when writing the 6809 simulator,
 but I'm a newb when it comes to Java.  I'm sure the GUI could have been done
 better, but the buttons work, the 7 segment displays work, and I have tested
@@ -27,7 +26,6 @@ The rest of the directory includes the source and Netbeans project for the
 simulator.
 
 Known issues:
--no NMI or IRQ simulation (yet).
 -Any bugs in the ET-3400A ROM are still present since it runs the exact ET-3400A
 ROM image.  There may be bugs in the simulator I haven't found yet, but I fixed a
 few in the development of it.
